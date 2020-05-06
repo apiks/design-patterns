@@ -1,6 +1,6 @@
-package observer;
+package cmdANDobserver.observer;
 
-import entities.Trainee;
+import cmdANDobserver.entities.Trainee;
 
 public abstract class TraineeObserver {
     protected Trainee trainee;

@@ -1,6 +1,6 @@
-package entities;
+package cmdANDobserver.entities;
 
-import observer.TraineeObserver;
+import cmdANDobserver.observer.TraineeObserver;
 
 import java.util.ArrayList;
 import java.util.List;

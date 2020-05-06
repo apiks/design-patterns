@@ -1,6 +1,6 @@
-package entities;
+package cmdANDobserver.entities;
 
-import observer.TraineeObserver;
+import cmdANDobserver.observer.TraineeObserver;
 
 public class Viewer extends TraineeObserver {
     private String position = "standing";

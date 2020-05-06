@@ -1,6 +1,6 @@
-package command;
+package cmdANDobserver.command;
 
-import entities.Trainee;
+import cmdANDobserver.entities.Trainee;
 
 public class LayTrainee implements Command {
     private Trainee trainee;

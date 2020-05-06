@@ -1,10 +1,10 @@
-package demo;
+package cmdANDobserver.demo;
 
-import command.LayTrainee;
-import command.StandTrainee;
-import entities.Instructor;
-import entities.Trainee;
-import entities.Viewer;
+import cmdANDobserver.command.LayTrainee;
+import cmdANDobserver.command.StandTrainee;
+import cmdANDobserver.entities.Instructor;
+import cmdANDobserver.entities.Trainee;
+import cmdANDobserver.entities.Viewer;
 
 public class Demo {
     public static void main(String[] args) {

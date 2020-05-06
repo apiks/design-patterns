@@ -1,6 +1,6 @@
-package entities;
+package cmdANDobserver.entities;
 
-import command.Command;
+import cmdANDobserver.command.Command;
 
 public class Instructor {
     public void makeCommand(Command command){
