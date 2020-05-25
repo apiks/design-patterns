@@ -1,6 +1,9 @@
 package mediatorANDfactoryANDSingleton.singleton;
 
 import mediatorANDfactoryANDSingleton.factory.User;
+import mediatorANDfactoryANDSingleton.mediator.ChatRoom;
+
+import java.util.ArrayList;
 
 public class Bot extends User {
     String[] filters = {"cat"};
@@ -20,5 +23,10 @@ public class Bot extends User {
             }
         }
         return "";
+    }
+    public void kickUser(User user, ChatRoom chatroom) {
+        ArrayList<User> users = chatroom.getUsers();
+        users.remove(user);
+        chatroom.setUsers(users);
     }
 }

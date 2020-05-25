@@ -17,7 +17,7 @@ public class ChatRoom {
         ChatRoom.users = users;
     }
 
-    public static void showMessage(User user, String message){
+    public void showMessage(User user, String message){
         System.out.println(new Date().toString() + " [" + user.getUsername() + "]: " + message);
 
         if (bot == null) {
@@ -36,7 +36,7 @@ public class ChatRoom {
 
         String validation = bot.validateMessage(message, user.getPermission());
         if (!validation.equals("")) {
-            users.remove(user);
+            bot.kickUser(user, this);
             System.out.println(new Date().toString() + " [" + bot.getUsername() + "]: " +
                     "'" + user.getUsername() + "'" + " has been removed from the chat room for using the filtered phrase " +
                     "'" + validation +"'.");

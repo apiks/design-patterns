@@ -20,7 +20,7 @@ public class User {
         this.permission = permission;
     }
 
-    public void sendMessage(String message){
-        ChatRoom.showMessage(this,message);
+    public void sendMessage(String message, ChatRoom chatRoom){
+        chatRoom.showMessage(this, message);
     }
 }
