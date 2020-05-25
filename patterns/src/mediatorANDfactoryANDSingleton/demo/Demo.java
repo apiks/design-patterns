@@ -1,8 +1,8 @@
-package mediatorANDfactory.demo;
+package mediatorANDfactoryANDSingleton.demo;
 
-import mediatorANDfactory.factory.User;
-import mediatorANDfactory.factory.UserFactory;
-import mediatorANDfactory.mediator.ChatRoom;
+import mediatorANDfactoryANDSingleton.factory.User;
+import mediatorANDfactoryANDSingleton.factory.UserFactory;
+import mediatorANDfactoryANDSingleton.mediator.ChatRoom;
 
 public class Demo {
     public static void main(String[] args) {

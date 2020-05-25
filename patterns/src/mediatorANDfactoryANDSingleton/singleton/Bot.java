@@ -1,6 +1,6 @@
-package mediatorANDfactory.singleton;
+package mediatorANDfactoryANDSingleton.singleton;
 
-import mediatorANDfactory.factory.User;
+import mediatorANDfactoryANDSingleton.factory.User;
 
 public class Bot extends User {
     String[] filters = {"cat"};

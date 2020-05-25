@@ -1,7 +1,7 @@
-package mediatorANDfactory.mediator;
+package mediatorANDfactoryANDSingleton.mediator;
 
-import mediatorANDfactory.factory.User;
-import mediatorANDfactory.singleton.Bot;
+import mediatorANDfactoryANDSingleton.factory.User;
+import mediatorANDfactoryANDSingleton.singleton.Bot;
 
 import java.util.ArrayList;
 import java.util.Date;

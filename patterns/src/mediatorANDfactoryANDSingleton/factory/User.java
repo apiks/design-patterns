@@ -1,6 +1,6 @@
-package mediatorANDfactory.factory;
+package mediatorANDfactoryANDSingleton.factory;
 
-import mediatorANDfactory.mediator.ChatRoom;
+import mediatorANDfactoryANDSingleton.mediator.ChatRoom;
 
 public class User {
     String username;
