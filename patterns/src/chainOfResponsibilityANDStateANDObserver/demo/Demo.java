@@ -26,11 +26,11 @@ public class Demo {
         ParcelEmployee parcelEmployee = new ParcelEmployee(employeesChain);
 
         System.out.println("-----");
-        employeesChain.handleParcel(AbstractCounterEmployee.INTERNATIONAL, new Parcel("Book"));
+        employeesChain.handleParcel(AbstractCounterEmployee.INTERNATIONAL, new Parcel("Book", "France, Paris, st. 25th Molyneux Avenue"));
         System.out.println("-----");
-        employeesChain.handleParcel(AbstractCounterEmployee.COUNTRY, new Parcel("Memory Stick"));
+        employeesChain.handleParcel(AbstractCounterEmployee.COUNTRY, new Parcel("Memory Stick", "Bulgaria, Sofia, st. Kapitan Raicho 6a"));
         System.out.println("-----");
-        employeesChain.handleParcel(AbstractCounterEmployee.CITY, new Parcel("Flash Drive"));
+        employeesChain.handleParcel(AbstractCounterEmployee.CITY, new Parcel("Flash Drive", "Bulgaria, Plovdiv, bul. Bulgaria 236"));
         System.out.println("-----");
     }
 }

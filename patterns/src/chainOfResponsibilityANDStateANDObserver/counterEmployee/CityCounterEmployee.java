@@ -13,6 +13,7 @@ public class CityCounterEmployee extends AbstractCounterEmployee {
     @Override
     protected void prepareParcel(Parcel parcel) {
         System.out.println("City: " + parcel.getName());
+        System.out.println("Address: " + parcel.getAddress());
         this.setParcel(parcel);
         this.setState(new CounterEmployeePreparingState());
     }

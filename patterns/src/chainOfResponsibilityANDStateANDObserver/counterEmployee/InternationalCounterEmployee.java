@@ -13,6 +13,7 @@ public class InternationalCounterEmployee extends AbstractCounterEmployee {
     @Override
     protected void prepareParcel(Parcel parcel) {
         System.out.println("International: " + parcel.getName());
+        System.out.println("Address: " + parcel.getAddress());
         this.setParcel(parcel);
         this.setState(new CounterEmployeePreparingState());
     }
